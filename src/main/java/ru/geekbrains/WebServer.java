@@ -16,7 +16,7 @@ public class WebServer {
     private static String WWW = "/Users/macbook/IdeaProjects/first-geek-web-server/www";
 
     public static void main(String[] args) {
-        try (ServerSocket serverSocket = new ServerSocket(8080)) {
+        try (ServerSocket serverSocket = new ServerSocket(8088)) {
             System.out.println("Server started!");
 
             while (true) {
